@@ -111,26 +111,56 @@ body{
    font-weight: 400;
    font-size: 10px;
    color: hsl(28, 10%, 53%);
-
-
    
 }
 .container3{
     display: flex;
     flex-direction: column;
     width: 100%;
+
 }
+
+
 .con{
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
     
 
     .left{
         align-self: start;
+
+        #total{
+            color: hsl(28, 10%, 53%);
+            font-family: "DM Sans", sans-serif;
+            font-weight: 400;
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+
+        #totalAmt{
+            color: hsl(25, 47%, 15%);
+            font-family: "DM Sans", sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+        }
     }
 
     .right{
         align-self: end;
+
+        #percent{
+            font-family: "DM Sans", sans-serif; 
+            font-weight: 700; 
+            color: hsl(25, 47%, 15%);
+        }
+
+        #lastMonth{
+            font-family: "DM Sans", sans-serif;
+            font-weight: 400;
+            font-size: 10px;
+            color: hsl(28, 10%, 53%);
+        }
     }
 }
 
